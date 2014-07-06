@@ -8,26 +8,17 @@
 
 <link rel="alternate" type="application/atom+xml" href="/index.xml">
 <link rel="stylesheet" href="css/mop.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <title>Xavier Deschuyteneer</title>
 
-<aside id="y">
-  <p>
-    <a href="index.html">
-      <img id="avatar"
-           src="https://secure.gravatar.com/avatar/7ecfa410545bd5dceb246c911c85bb01?s=130">
-    </a>
-    Hi. I'm Xavier Deschuyteneer (<a href="contact.html">contact</a>).
-    I'm graduated in computer science
-    (<a href="http://umons.ac.be">UMons</a>). I
-    write <a href="https://github.com/darkwod">code</a>.
-    I <a href="https://twitter.com/xavier_deschuyt">tweet</a>.  I'm a
-    facebook <a href="http://facebook.com/xavier.deschuyteneer">user</a>.
-    This is my <a href="http://darkwod.github.com">blog</a>.
-    <hr>
-  </p>
-</aside>
+<div id="includedContent"></div>
+
+<script> 
+  $(function(){
+  $("#includedContent").load("aside.html"); 
+  });
+</script> 
 
 <article id="home">
   <ul>

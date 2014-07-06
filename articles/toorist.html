@@ -7,10 +7,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <link rel="alternate" type="application/atom+xml" href="/index.xml"/>
-
 <link rel="stylesheet" href="../css/mop.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <title>Toorist By Xavier Deschuyteneer and David Hauweele</title>
+
+<div id="includedContent"></div>
+
+<script>
+  $(function(){
+  $("#includedContent").load("aside.html");
+  });
+</script>
 
 <body>
 <article>
@@ -27,7 +35,7 @@
       This project is owned by UMONS. Closed sources.<br/>
       Try it: <a href="https://play.google.com/store/apps/details?id=be.ac.umons.toorist">on Google Play</a><br/>
     </p>
-    
+
     <p>
     [fr] Interview sur <a href="https://www.youtube.com/watch?v=KZ6FeVx9gpc">Youtube</a>
     </p>
@@ -36,22 +44,4 @@
       <span>10 September 2012</span>
     </footer>
 </article>
-
-
-
 </body>
-
-<aside>
-  <p>
-    <a href="http://darkwod.github.com">
-      <img id="avatar" src="https://secure.gravatar.com/avatar/7ecfa410545bd5dceb246c911c85bb01?s=130">
-    </a>
-    Hi. I'm Xavier Deschuyteneer (<a href="contact.html">contact</a>). 
-    I work at <a href="http://umons.ac.be">UMons</a> (Student). 
-    I write <a href="https://github.com/darkwod">code</a>. 
-    I <a href="https://twitter.com/xavier_deschuyt">tweet</a>. 
-    I'm a facebook <a href="http://facebook.com/xavier.deschuyteneer">user</a>.
-    This is my <a href="http://darkwod.github.com">blog</a>.
-    <hr>
-  </p>
-</aside>
